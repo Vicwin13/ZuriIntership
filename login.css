@@ -1,0 +1,69 @@
+@import url(/style.css);
+
+
+#login section form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 40px;
+    width: 24rem;
+    margin: 0 auto;
+    
+}
+
+#login section{
+    margin: 8vh auto;
+    
+    
+}
+
+form input{
+    padding: 13px;
+    
+}
+form label{
+    font-size: 1.3rem;
+}
+button.signIn{
+    margin-top: 13px;
+    padding: 15px;
+    font-size: large;
+    font-weight: bold;
+    background-color: #fca50f;
+    color: white;
+    border: none;
+}
+
+#login div.hold {
+    
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+    justify-content: center;
+    text-align: center;
+    width: 25rem;
+}
+#login div.hold .or{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    padding: 0px 10px 0px 10px;
+}
+hr{
+    width: 30%;
+    background-color:none;
+    height: 0px;
+}
+
+button.create{
+    margin: 3rem auto;
+    padding: .8rem;
+    width: 20rem;
+    justify-self: center;
+    background: none;
+    color: white;
+    border: 1px solid white;
+}
